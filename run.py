@@ -5,9 +5,9 @@ from aiogram import Bot, Dispatcher, exceptions
 from app.heandlers import router
 import schedule
 import db
-bot = Bot(token="5239876511:AAHxZuQ-bQ3zxiKcEDwueQjKevir2wMOYJI")
+bot = Bot(token="")
 dp = Dispatcher()
-chat_id = "-1002246565531"
+chat_id = ""
 
 async def send_messages_periodically():
     while True:
